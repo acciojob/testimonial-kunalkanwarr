@@ -1,31 +1,40 @@
-/*  your css code here. If applicable */
-/* Main container with padding and background color */
-.main-container {
-    padding: 20px;
-    background-color: #f5f5f5; /* Light grey background color */
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Set background color for the page */
+    margin: 0;
+    padding: 0;
 }
 
-/* Individual testimonial box styling */
+/* Main container styling for testimonials */
+.testimonial-container {
+    padding: 40px;
+    background-color: #ffffff; /* Optional: You can set a different background for the main container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Individual testimonial styling */
 .testimonial {
     padding: 20px;
-    border: 2px solid #ccc; /* Light border around testimonial */
-    background-color: #fff; /* White background for each testimonial */
-    margin-bottom: 20px; /* Space between testimonials */
-    border-radius: 5px; /* Optional: rounded corners for a softer look */
+    margin: 15px 0;
+    border: 1px solid #ddd; /* Light gray border */
+    background-color: #fafafa; /* Background color for each testimonial */
+    width: 300px;
+    border-radius: 8px; /* Rounded corners */
 }
 
-/* Normal styling for testimonial text */
-.text {
+/* Testimonial text styling */
+.testimonial-text {
     font-size: 16px;
-    color: #333; /* Dark grey text color */
-    font-family: 'Arial', sans-serif; /* Standard font family */
+    color: #333; /* Dark text color for readability */
+    margin-bottom: 15px;
 }
 
-/* Author styling with text alignment and italic font style */
+/* Author's name styling */
 .author {
-    text-align: right; /* Align author name to the right */
-    font-style: italic; /* Italicize the author’s name */
-    font-size: 14px;
-    color: #555; /* Slightly lighter grey for the author’s name */
-    margin-top: 10px; /* Space between text and author name */
+    text-align: right; /* Align the author's name to the right */
+    font-style: italic; /* Italicize the author's name */
+    color: #555; /* Slightly lighter color for the author's name */
 }
