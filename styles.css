@@ -1,44 +1,33 @@
-/* Main container styling */
-.testimonial-container {
-    padding: 40px;
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Testimonials Section */
+.testimonials-section {
     background-color: #f5f5f5;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-/* Testimonial box styling */
-.testimonial {
     padding: 20px;
-    border: 1px solid #ddd;
+    margin: 20px;
+}
+
+.testimonials-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Individual Testimonial */
+.testimonial {
     background-color: #fff;
-    width: 30%;
-    box-sizing: border-box;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 15px;
 }
 
-/* Testimonial text styling */
-.testimonial-text {
-    font-size: 16px;
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-/* Author styling */
+/* Author Style */
 .author {
     text-align: right;
     font-style: italic;
-    color: #555;
-    font-size: 14px;
-}
-
-/* Styling for the h1 */
-h1 {
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #333;
-    font-family: 'Arial', sans-serif;
+    margin-top: 10px;
 }
