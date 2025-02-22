@@ -35,8 +35,3 @@ body {
 }
 
 .author {
-    text-align: right;
-    font-style: italic;
-    margin-top: 10px;
-    font-size: 0.9em; /* Slightly smaller font size for author */
-}
