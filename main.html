@@ -3,27 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testimonial Section</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Testimonials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .testimonials-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+        }
+        .testimonial {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .testimonial p {
+            margin: 0 0 10px 0;
+        }
+        .author {
+            text-align: right;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-
-    <!-- Testimonial Section -->
-    <section class="testimonial-container">
-        <h1>What Our Clients Say</h1> <!-- Main Heading -->
-        
-        <!-- Testimonial 1 -->
+    <div class="testimonials-container">
+        <h1>Testimonials</h1>
         <div class="testimonial">
-            <p class="testimonial-text">"This service has completely transformed my experience! Highly recommended for anyone looking to improve their workflow."</p>
+            <p>This product is amazing! I highly recommend it to anyone in need of a solution like this.</p>
             <p class="author">- John Doe</p>
         </div>
-        
-        <!-- Testimonial 2 -->
         <div class="testimonial">
-            <p class="testimonial-text">"An amazing platform that helped me achieve my goals faster than I ever thought possible. I can’t thank you enough!"</p>
+            <p>I have been using this for a few weeks now and it has completely transformed my workflow.</p>
             <p class="author">- Jane Smith</p>
         </div>
-    </section>
-
+    </div>
 </body>
 </html>
